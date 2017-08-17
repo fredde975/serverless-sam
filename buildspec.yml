@@ -6,9 +6,9 @@ environment_variables:
 containers:
     LambdaFunctions:
         phases:
-            pre_build:
-                commands:
-                    - eslint *.js
+#            pre_build:
+#                commands:
+#                    - eslint *.js
             during_build:
                 commands:
                     - npm install
